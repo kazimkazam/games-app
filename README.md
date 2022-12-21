@@ -1,6 +1,6 @@
 ## Games Online App
 
-Javascript (JS) static application that makes available 2 games that can be played on the browser;
+Javascript (JS) static application using Bootstrap that makes available 2 games that can be played on the browser;
 
 The application is deployed and can be accessed through the link below:
 
