@@ -67,7 +67,45 @@ You will only need your mouse.
 
 ## Screenshots
 
+### Navbar
 
+![image](https://github.com/kazimkazam/games-app/blob/master/screenshots/navbar.png?raw=true)
+
+### Homepage
+
+![image](https://github.com/kazimkazam/games-app/blob/master/screenshots/homepage.png?raw=true)
+
+### Space Invaders
+
+![image](https://github.com/kazimkazam/games-app/blob/master/screenshots/spaceInvaders.png?raw=true)
+
+#### Space Invaders Win
+
+![image](https://github.com/kazimkazam/games-app/blob/master/screenshots/spaceInvadersWin.png?raw=true)
+
+#### Space Invaders Loss
+
+![image](https://github.com/kazimkazam/games-app/blob/master/screenshots/spaceInvadersLoss.png?raw=true)
+
+### Tic-Tac-Toe
+
+![image](https://github.com/kazimkazam/games-app/blob/master/screenshots/ticTacToe.png?raw=true)
+
+#### Tic-Tac-Toe Win
+
+![image](https://github.com/kazimkazam/games-app/blob/master/screenshots/ticTacToeWin.png?raw=true)
+
+#### Tic-Tac-Toe Loss
+
+![image](https://github.com/kazimkazam/games-app/blob/master/screenshots/ticTacToeLoss.png?raw=true)
+
+### Future Games
+
+![image](https://github.com/kazimkazam/games-app/blob/master/screenshots/futureGames.png?raw=true)
+
+### Acknowledgements
+
+![image](https://github.com/kazimkazam/games-app/blob/master/screenshots/acknowledgements.png?raw=true)
 
 ## Future Work
 
