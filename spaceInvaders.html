@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="The games app" content="Application with a bunch of games">
+        <link rel="apple-touch-icon" href="logo192.png">
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <link rel="manifest" href="manifest.json">
+        <title>Games Online</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <link rel="stylesheet" href="./stylesheets.css">
+        <script src="https://cdn.jsdelivr.net/npm/phaser@3.15.1/dist/phaser-arcade-physics.min.js"></script>
+        <script src="http://192.168.1.71:8080\node_modules\howler\dist\howler.min.js"></script>
+    </head>
+    <body class='bg-dark text-white'>
+        <script defer src="http://192.168.1.71:8080/spaceInvadersScript.js"></script>
+
+        <nav class="navbar fixed-top navbar-expand-lg" style="background-color: #AF2D2D; border-bottom: 0.1rem solid #FFBF00;">
+            <div class="container-fluid">
+                <img class="ms-2" src="./logo192.png" width="40" />
+                <a id="title" class="navbar-brand text-white ms-3" href="./index.html">Games Online</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item rounded">
+                            <a class="nav-link text-white" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown rounded">
+                            <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Games</a>
+                            <ul id="dropdown" class="dropdown-menu bg-dark rounded" style="border: 0.1rem solid #FFBF00;">
+                                <li class="px-2"><a class="dropdown-item text-white rounded" href="#">Space Invaders</a></li>
+                                <li class="px-2"><a class="dropdown-item text-white rounded" href="./ticTacToe.html">Tic-Tac-Toe</a></li>
+                                <li class="px-2"><hr class="dropdown-divider" style="background-color: #FFBF00;"></li>
+                                <li class="px-2"><a class="dropdown-item text-white rounded" href="./futureGames.html">Future games</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item rounded">
+                            <a class="nav-link text-white" href="./acknowledgements.html">Acknowledgements</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div id="container-game" class="container-fluid position-absolute">
+            <div id="game" class="rounded" style="height: 600px; width: 800px; margin: auto;">
+                
+            </div>
+
+            <footer class="container-fluid text-center mt-3">
+                <p>Games Online 2022©</p>
+            </footer>
+        </div>
+
+        <div id="container-result" class="position-absolute rounded d-flex flex-column justify-content-center align-items-center" style="top: 30%; left: 35%; height: 25%; width: 30%; background-color: #AF2D2D; border: 0.1rem solid #FFBF00; z-index: -1;">
+            <h2 id="resultText1" class="user-select-none"></h2>
+            <h3 id="resultText2" class="user-select-none"></h3>
+
+            <button id="reload" type="button" class="btn btn-light btn-lg mt-3" style="border: 0.2rem solid black">Try again!</button>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    </body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="The games app" content="Application with a bunch of games">
+        <link rel="apple-touch-icon" href="logo192.png">
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <link rel="manifest" href="manifest.json">
+        <title>Games Online</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <link rel="stylesheet" href="./stylesheets.css">
+    </head>
+    <body class='bg-dark text-white d-flex justify-content-center'>
+        <nav class="navbar fixed-top navbar-expand-lg" style="background-color: #AF2D2D; border-bottom: 0.1rem solid #FFBF00;">
+            <div class="container-fluid">
+                <img class="ms-2" src="./logo192.png" width="40" />
+                <a id="title" class="navbar-brand text-white ms-3" href="#">Games Online</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item rounded">
+                            <a class="nav-link text-white" href="#">Home</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li> -->
+                        <li class="nav-item dropdown rounded">
+                            <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Games</a>
+                            <ul id="dropdown" class="dropdown-menu bg-dark rounded" style="border: 0.1rem solid #FFBF00;">
+                                <li class="px-2"><a class="dropdown-item text-white rounded" href="./spaceInvaders.html">Space Invaders</a></li>
+                                <li class="px-2"><a class="dropdown-item text-white rounded" href="./ticTacToe.html">Tic-Tac-Toe</a></li>
+                                <li class="px-2"><hr class="dropdown-divider" style="background-color: #FFBF00;"></li>
+                                <li class="px-2"><a class="dropdown-item text-white rounded" href="./futureGames.html">Future games</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item rounded">
+                            <a class="nav-link text-white" href="./acknowledgements.html">Acknowledgements</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div id="container-documentation" class="container-fluid position-absolute">
+            <div id="container-introduction" class="rounded p-3 mb-5" style="border: 0.1rem solid #FFBF00;">
+                <h3 class="rounded text-center" style="background-color: #AF2D2D;">Introduction</h4>
+                <p>This website was developed using <span style="font-size: 1.2rem; color:#FFBF00;">javascript</span> and <span style="font-size: 1.2rem; color:#FFBF00;">Phaser</span>, a fast, free, and fun open source HTML5 game framework that offers WebGL and Canvas rendering across desktop and mobile web browsers <span><a href="https://newdocs.phaser.io/docs/3.55.2" target="_blank">(https://newdocs.phaser.io/docs/3.55.2)</a></span>.</p>
+                <p>Additionally, it was used <span style="font-size: 1.2rem; color:#FFBF00;">Howler</span>. Howler is a audio library with easy implementation, and it was applied to add sound effects to Space Invaders <span><a href="https://howlerjs.com" target="_blank">(https://howlerjs.com)</a></span>.</p>
+                <p>The styling of the website was completed with the help from <span style="font-size: 1.2rem; color:#FFBF00;">Bootstrap</span>.</p>
+                <p>At the moment, the website allows you to play two games: <span style="font-size: 1.2rem; color:#FFBF00;">Space Invaders</span> and <span style="font-size: 1.2rem; color:#FFBF00;">Tic-Tac-Toe</span>. Click in the Games dropdown tab and go check them out!</p>
+            </div>
+
+            <div id="container-instructions" class="rounded p-3 mb-5" style="border: 0.1rem solid #FFBF00; text-align: justify;">
+                <h3 class="rounded text-center" style="background-color: #AF2D2D;">Instructions</h4>
+                <div class="row">
+                    <div class="col p-3">
+                        <h5 class="text-center my-3 rounded w-50 m-auto" style="background-color: #AF2D2D;">Space Invaders</h5>
+                        <p>To start the game, just click on the game window. The game will start right away.</p>
+                        <p>We know you don't like to waste bullets, so be careful, you'll only be able to fire while there is no other bullet of yours on the screen!</p>
+                    </div>
+    
+                    <div class="col p-3">
+                        <h5 class="text-center my-3 rounded w-50 m-auto" style="background-color: #AF2D2D;">Tic-Tac-Toe</h5>
+                        <p>When the page loads the first time, you are the first to play by default. To start, just click on the square where you wish to position your play.</p>
+                        <p>In the case that you want to play after the computer, just change the setting 'First to play' above the window to 'Computer', and then click on 'New Game'.</p>
+                        <p>We challenge you to beat the game while playing on difficulty 'Unbeatable'.</p>
+                        <p>If you wish to play in a easier level, just change the difficulty to 'Easy'.</p>
+                    </div>
+                </div>
+                <p class="text-center"><span style="font-size: 1.2rem; color:#FFBF00;">Good game!</span></p>
+            </div>
+            
+            <div id="container-controls" class="rounded p-3 mb-5" style="border: 0.1rem solid #FFBF00;">
+                <h3 class="rounded text-center" style="background-color: #AF2D2D;">Controls</h3>
+                <div class="row">
+                    <div class="col text-center p-3">
+                        <h5 class="text-center my-3 rounded w-50 m-auto" style="background-color: #AF2D2D;">Space Invaders</h5>
+                        <p>To maneuvre your spaceship, you'll need to use your <span style="font-size: 1.2rem; color:#FFBF00;">arrow keys</span>.</p>
+                        <p>Use the <span style="font-size: 1.2rem; color:#FFBF00;">space</span> key to fire.</p>
+                    </div>
+    
+                    <div class="col text-center p-3">
+                        <h5 class="text-center my-3 rounded w-50 m-auto" style="background-color: #AF2D2D;">Tic-Tac-Toe</h5>
+                        <p>You will only need your <span style="font-size: 1.2rem; color:#FFBF00;">mouse</span>.</p>
+                    </div>
+                </div>
+            </div>
+
+            <footer class="container-fluid text-center">
+                <p>Games Online 2022©</p>
+            </footer>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    </body>
+</html>

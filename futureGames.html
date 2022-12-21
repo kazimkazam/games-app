@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="The games app" content="Application with a bunch of games">
+        <link rel="apple-touch-icon" href="logo192.png">
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <link rel="manifest" href="manifest.json">
+        <title>Games Online</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <link rel="stylesheet" href="./stylesheets.css">
+    </head>
+    <body class='bg-dark text-white d-flex justify-content-center'>
+        <nav class="navbar fixed-top navbar-expand-lg" style="background-color: #AF2D2D; border-bottom: 0.1rem solid #FFBF00;">
+            <div class="container-fluid">
+                <img class="ms-2" src="./logo192.png" width="40" />
+                <a id="title" class="navbar-brand text-white ms-3" href="./index.html">Games Online</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item rounded">
+                            <a class="nav-link text-white" href="./index.html">Home</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li> -->
+                        <li class="nav-item dropdown rounded">
+                            <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Games</a>
+                            <ul id="dropdown" class="dropdown-menu bg-dark rounded" style="border: 0.1rem solid #FFBF00;">
+                                <li class="px-2"><a class="dropdown-item text-white rounded" href="./spaceInvaders.html">Space Invaders</a></li>
+                                <li class="px-2"><a class="dropdown-item text-white rounded" href="./ticTacToe.html">Tic-Tac-Toe</a></li>
+                                <li class="px-2"><hr class="dropdown-divider" style="background-color: #FFBF00;"></li>
+                                <li class="px-2"><a class="dropdown-item text-white rounded" href="#">Future games</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item rounded">
+                            <a class="nav-link text-white" href="./acknowledgements.html">Acknowledgements</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div id="container-documentation" class="container-fluid position-absolute">
+            <div id="container-introduction" class="rounded p-3 mb-5" style="border: 0.1rem solid #FFBF00;">
+                <h3 class="rounded text-center" style="background-color: #AF2D2D;">Future Games</h4>
+                <p>At the moment, the website allows you to play two games: <span style="font-size: 1.2rem; color:#FFBF00;">Space Invaders</span> and <span style="font-size: 1.2rem; color:#FFBF00;">Tic-Tac-Toe</span>. Click in the Games dropdown tab and go check them out!</p>
+                <p>The plan is to include more games in the future. As soon as some enter development, we will post here the news.</p>
+                <p>Thank you for using Games Online! Have a nice game!</p>
+            </div>
+
+            <footer class="container-fluid text-center">
+                <p>Games Online 2022©</p>
+            </footer>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    </body>
+</html>

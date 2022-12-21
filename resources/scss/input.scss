@@ -1,0 +1,78 @@
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&family=Ubuntu:wght@400;700&display=swap');
+
+#title {
+    font-family: 'Rubik Vinyl', cursive;
+    font-size: 2rem;
+};
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+};
+
+#dropdown li a:hover {
+    background-color: #AF2D2D;
+};
+
+.nav-item:hover {
+    background-color: #212529;
+};
+
+#container-game {
+    top: 15%;
+    height: 40rem;
+};
+
+#container-documentation {
+    top: 15%;
+};
+
+#game {
+    border: 0.1rem solid #FFBF00;
+};
+
+footer {
+    top: 90%;
+};
+
+#reload:hover {
+    background-color: #212529;
+    color: white;
+};
+
+#newGame:hover {
+    background-color: #AF2D2D;
+    color: white;
+};
+
+// ---------------------------------------------------
+// media queries
+
+// @media screen and (max-width: 992px) {
+//     // #container-game {
+//     //     height: 35rem;
+//     // };
+
+//     footer {
+//         top: 95%;
+//     };
+// };
+
+// @media screen and (max-width: 576px) {
+//     // #container-game {
+//     //     top: 20%;
+//     //     height: 30rem;
+//     // };
+
+//     footer {
+//         top: 95%;
+//     };
+// };
+
+// // @media screen and (max-width: 335px) {
+// //     #container-game {
+// //         top: 30%;
+// //     };
+// // };
