@@ -24,7 +24,8 @@ let config = {
 let game = new Phaser.Game(config);
 
 function preload () {
-    this.load.setBaseURL('http://192.168.1.71:8080');
+    // this.load.setBaseURL('http://192.168.1.71:8080');
+    this.load.setBaseURL('/');
 
     this.load.image('background', 'resources/gameModels/background/darkSpace.png');
     this.load.image('spaceShip', 'resources/gameModels/models/spaceship.png');
@@ -39,32 +40,38 @@ function preload () {
 // load sounds
 
 let gameStartSound = new Howl({
-    src: [ 'http://192.168.1.71:8080/resources/sounds/gameStart.mp3' ],
+    // src: [ 'http://192.168.1.71:8080/resources/sounds/gameStart.mp3' ],
+    src: [ '/resources/sounds/gameStart.mp3' ],
     volume: 0.7,
 });
 
 let shootSound = new Howl({
-    src: [ 'http://192.168.1.71:8080/resources/sounds/laserShot.mp3' ],
+    // src: [ 'http://192.168.1.71:8080/resources/sounds/laserShot.mp3' ],
+    src: [ '/resources/sounds/laserShot.mp3' ],
     volume: 0.5,
 });
 
 let explosionSound = new Howl({
-    src: [ 'http://192.168.1.71:8080/resources/sounds/explosion.mp3' ],
+    // src: [ 'http://192.168.1.71:8080/resources/sounds/explosion.mp3' ],
+    src: [ '/resources/sounds/explosion.mp3' ],
     volume: 0.1,
 });
 
 let playerHitSound = new Howl({
-    src: [ 'http://192.168.1.71:8080/resources/sounds/playerHit.mp3' ],
+    // src: [ 'http://192.168.1.71:8080/resources/sounds/playerHit.mp3' ],
+    src: [ '/resources/sounds/playerHit.mp3' ],
     volume: 0.3,
 });
 
 let gameWinSound = new Howl({
-    src: [ 'http://192.168.1.71:8080/resources/sounds/gameWin.mp3' ],
+    // src: [ 'http://192.168.1.71:8080/resources/sounds/gameWin.mp3' ],
+    src: [ '/resources/sounds/gameWin.mp3' ],
     volume: 0.4,
 });
 
 let gameLossSound = new Howl({
-    src: [ 'http://192.168.1.71:8080/resources/sounds/gameLoss.mp3' ],
+    // src: [ 'http://192.168.1.71:8080/resources/sounds/gameLoss.mp3' ],
+    src: [ '/resources/sounds/gameLoss.mp3' ],
     volume: 0.4,
 });
 
