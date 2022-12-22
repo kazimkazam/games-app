@@ -1,6 +1,6 @@
 ## Games Online App
 
-Javascript (JS) static application using Bootstrap that makes available 2 games that can be played on the browser;
+HTML and JS static website using Bootstrap that makes available 2 games that can be played on the browser;
 
 The application is deployed and can be accessed through the link below:
 
@@ -9,7 +9,6 @@ The application is deployed and can be accessed through the link below:
 ## Table of Contents
 
 - [Development](#development);
-- [Deployment](#deployment);
 - [How to Use](#how-to-use);
 - [Screenshots](#screenshots);
 - [Future Work](#future-work);
@@ -19,7 +18,7 @@ The application is deployed and can be accessed through the link below:
 
 ## Development
 
-This website was developed using JS and Phaser, a fast, free, and fun open source HTML5 game framework that offers WebGL and Canvas rendering across desktop and mobile web browsers (https://newdocs.phaser.io/docs/3.55.2).
+This website was developed using HTML, JS and Phaser, a fast, free, and fun open source HTML5 game framework that offers WebGL and Canvas rendering across desktop and mobile web browsers (https://newdocs.phaser.io/docs/3.55.2).
 
 Additionally, it was used Howler. Howler is a audio library with easy implementation, and it was applied to add sound effects to Space Invaders.
 
@@ -36,10 +35,6 @@ The application uses the following packages:
 ### Tic-Tac-Toe
 
 To control the computer next move choise it was applied the minimax algorithm, more specifically, the negamax search variant. Since Tic-Tac-Top is a relatively small game, i.e., with a relatively small number of possible choices which translates into a narrow tree of possibilities and relatively low branching factor (4), minimax algorithm is a perfect method to determine the best choice.
-
-## Deployment
-
-
 
 ## How to Use
 
