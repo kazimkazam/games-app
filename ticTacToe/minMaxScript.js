@@ -1,4 +1,5 @@
-import { getAvailableMoves, isWin } from 'http://192.168.1.71:8080/ticTacToe/boardScript.js';
+// import { getAvailableMoves, isWin } from 'http://192.168.1.71:8080/ticTacToe/boardScript.js';
+import { getAvailableMoves, isWin } from './boardScript.js';
 
 const minMax = (board, player, symbol, level = 'unbeatable') => {
     let playerSymbol;
