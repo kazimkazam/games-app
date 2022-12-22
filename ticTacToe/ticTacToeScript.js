@@ -1,5 +1,7 @@
-import { minMax } from "http://192.168.1.71:8080/ticTacToe/minMaxScript.js";
-import { isWin, getAvailableMoves } from 'http://192.168.1.71:8080/ticTacToe/boardScript.js';
+// import { minMax } from "http://192.168.1.71:8080/ticTacToe/minMaxScript.js";
+// import { isWin, getAvailableMoves } from 'http://192.168.1.71:8080/ticTacToe/boardScript.js';
+import { minMax } from "./minMaxScript.js";
+import { isWin, getAvailableMoves } from './boardScript.js';
 
 // // human
 const humanPlayer = "X";
