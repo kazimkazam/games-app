@@ -4,7 +4,7 @@ Javascript (JS) static application using Bootstrap that makes available 2 games 
 
 The application is deployed and can be accessed through the link below:
 
-## 
+## https://kazimkazam-games-online.netlify.app/index.html
 
 ## Table of Contents
 
