@@ -8,6 +8,10 @@ const humanPlayer = "X";
 // // computer
 const computerPlayer = "O";
 
+// xCross and circle innerHtml
+const xCross = '<img src="./resources/gameModels/ticTacToe/xCross.png" width="70" alt="X" />';
+const circle = '<img src="/resources/gameModels/ticTacToe/circumference.png" width="70" alt="O" />';
+
 // const board = ["O",1 ,"X","X",4 ,"X", 6 ,"O","O"];
 // const board = [0, 1, 2, 3, 4, 5, 6, 7, 8];
 let gameStatus = '';
@@ -21,7 +25,8 @@ const newGame = () => {
     if (computerPlayer === 'first') {
         const moves = [0, 2, 6, 8];
         const randomIdx = Math.floor(Math.random() * moves.length);
-        document.getElementById(`cell${moves[randomIdx]}`).innerHTML = '<img src="http://192.168.1.71:8080/resources/gameModels/ticTacToe/circumference.png" width="70" alt="O" />';
+        // document.getElementById(`cell${moves[randomIdx]}`).innerHTML = '<img src="http://192.168.1.71:8080/resources/gameModels/ticTacToe/circumference.png" width="70" alt="O" />';
+        document.getElementById(`cell${moves[randomIdx]}`).innerHTML = circle;
     };
 };
 
@@ -56,7 +61,8 @@ const computerPlay = () => {
     // document.getElementById(`cell${bestSpot.index}`).innerHTML = '<p>O</p>';
     const cell = document.getElementById(`cell${bestSpot.index}`);
     if (cell) {
-        cell.innerHTML = '<img src="http://192.168.1.71:8080/resources/gameModels/ticTacToe/circumference.png" width="70" alt="O" />';
+        // cell.innerHTML = '<img src="http://192.168.1.71:8080/resources/gameModels/ticTacToe/circumference.png" width="70" alt="O" />';
+        cell.innerHTML = circle;
     };
 
     // log the results
@@ -69,7 +75,7 @@ cells.forEach(cell => {
     document.getElementById(cell.id).addEventListener('click', () => {
         if (!cell.innerHTML && gameStatus === '') {
             // document.getElementById(cell.id).innerHTML = '<p>X</p>'
-            document.getElementById(cell.id).innerHTML = '<img src="http://192.168.1.71:8080/resources/gameModels/ticTacToe/xCross.png" width="70" alt="X" />'
+            document.getElementById(cell.id).innerHTML = xCross;
 
             const checkWin = isWin(getBoardState(), 'X');
             
