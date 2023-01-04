@@ -110,7 +110,7 @@ There are also plans to include more games in the future. Namely, a chess game a
 
 ## Author
 
-@kazimkazam (monsieurkazimkazam@gmail.com).
+[https://github.com/kazimkazam](@kazimkazam) (monsieurkazimkazam@gmail.com).
 
 ## References
 
