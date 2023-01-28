@@ -1,6 +1,6 @@
 ## Games Online App
 
-HTML and JS static website using Bootstrap that makes available 2 games that can be played on the browser;
+HTML and JS website using Bootstrap that makes available 2 games that can be played on the browser;
 
 The application is deployed and can be accessed through the link below:
 
